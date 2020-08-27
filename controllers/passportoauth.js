@@ -41,7 +41,7 @@ passport.use(
             }).save()
             .then((newUser)=>{
                 console.log(newUser);
-               done(null, currentUser);
+               done(null, newUser);
 
             })
            }
