@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
+    "start": "node app.jsg",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -15,4 +15,6 @@
     "express": "^4.17.1",
     "mongoose": "^5.10.0",
     "passport": "^0.4.1",
-    "passport-goog
+    "passport-google-oauth20": "^2.0.0"
+  }
+}
